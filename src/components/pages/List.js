@@ -77,7 +77,7 @@ class List extends React.Component {
   componentDidMount() {
     fetchApi(`${API_URL}/latest?access_key=${API_KEY}`)
       .then((res) => this.setState({ rates: res.rates }))
-      .catch((err) => alert(err));
+      .catch((err) => console.log(err));
   }
 
   render() {
