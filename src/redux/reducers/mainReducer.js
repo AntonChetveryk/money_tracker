@@ -9,7 +9,7 @@ export const mainReducer = (state = initialState, action) => {
         ...state,
         expenses: [...state.expenses, action.payload],
       };
-    case "REMOVE_DATA":
+    case "REMOVE_DATE":
       return {
         ...state,
         expenses: action.payload,

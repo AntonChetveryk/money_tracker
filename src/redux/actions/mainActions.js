@@ -3,5 +3,5 @@ export const updateExpenses = (payload) => {
 };
 
 export const removeDateFromExpenses = (payload) => {
-  return { type: "REMOVE_DATA", payload };
+  return { type: "REMOVE_DATE", payload };
 };

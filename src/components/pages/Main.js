@@ -1,5 +1,5 @@
 import React from "react";
-import Field from "../Field";
+import Field from "../UI/Field";
 import { connect } from "react-redux";
 import { updateExpenses } from "../../redux/actions/mainActions";
 
@@ -36,6 +36,7 @@ class Main extends React.Component {
     } = this.state;
     if (date && money && product && currency) {
       this.props.updateExpenses(this.state.values);
+      this.props.history.push("/list");
     } else alert("Fill in all the fields");
   };
 
@@ -45,6 +46,7 @@ class Main extends React.Component {
     } = this.state;
     return (
       <div className="mt-2">
+        <h1 className="my-4 text-center">Add new Expense</h1>
         <form>
           <Field
             id="1"
