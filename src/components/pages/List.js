@@ -46,7 +46,6 @@ class List extends React.Component {
     const { rates } = this.state;
     let sumInEur = 0;
     for (let i = 0; i < expenses.length; i++) {
-      console.log(expenses[i].currency, expenses[i].money);
       if (expenses[i].currency === "EUR") sumInEur += Number(expenses[i].money);
       if (expenses[i].currency === "USD")
         sumInEur += Number(expenses[i].money) / rates.USD;
@@ -76,7 +75,7 @@ class List extends React.Component {
   };
 
   componentDidMount() {
-    fetchApi(`${API_URL}/latest?access_key=${API_KEY}&base=EUR`).then((res) =>
+    fetchApi(`${API_URL}/latest?access_key=${API_KEY}`).then((res) =>
       this.setState({ rates: res.rates })
     );
   }
