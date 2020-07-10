@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.js": "/money_tracker/static/js/main.eb74e4ff.chunk.js",
-    "main.js.map": "/money_tracker/static/js/main.eb74e4ff.chunk.js.map",
+    "main.js": "/money_tracker/static/js/main.c9657c02.chunk.js",
+    "main.js.map": "/money_tracker/static/js/main.c9657c02.chunk.js.map",
     "runtime-main.js": "/money_tracker/static/js/runtime-main.a87f3234.js",
     "runtime-main.js.map": "/money_tracker/static/js/runtime-main.a87f3234.js.map",
     "static/css/2.af3c1da9.chunk.css": "/money_tracker/static/css/2.af3c1da9.chunk.css",
     "static/js/2.bbc32dd3.chunk.js": "/money_tracker/static/js/2.bbc32dd3.chunk.js",
     "static/js/2.bbc32dd3.chunk.js.map": "/money_tracker/static/js/2.bbc32dd3.chunk.js.map",
     "index.html": "/money_tracker/index.html",
-    "precache-manifest.b178813e87a5c45265258d4ef280c9c7.js": "/money_tracker/precache-manifest.b178813e87a5c45265258d4ef280c9c7.js",
+    "precache-manifest.facc4225c308d18f40aeb89e092e702c.js": "/money_tracker/precache-manifest.facc4225c308d18f40aeb89e092e702c.js",
     "service-worker.js": "/money_tracker/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/money_tracker/static/css/2.af3c1da9.chunk.css.map",
     "static/js/2.bbc32dd3.chunk.js.LICENSE.txt": "/money_tracker/static/js/2.bbc32dd3.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.a87f3234.js",
     "static/css/2.af3c1da9.chunk.css",
     "static/js/2.bbc32dd3.chunk.js",
-    "static/js/main.eb74e4ff.chunk.js"
+    "static/js/main.c9657c02.chunk.js"
   ]
 }

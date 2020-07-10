@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "78d50db76387939aa70467d1e3cc56ba",
+    "revision": "d90250495ab190470b6452ce048ef6fd",
     "url": "/money_tracker/index.html"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/money_tracker/static/js/2.bbc32dd3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "43f265c3e3855a360eb0",
-    "url": "/money_tracker/static/js/main.eb74e4ff.chunk.js"
+    "revision": "e5c78a48373bee5286e1",
+    "url": "/money_tracker/static/js/main.c9657c02.chunk.js"
   },
   {
     "revision": "d0195189364f972c2199",
