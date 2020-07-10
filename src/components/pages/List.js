@@ -55,23 +55,25 @@ class List extends React.Component {
     return Number(sumInEur.toFixed(2));
   };
 
+  сurrencyConverter = () => {
+    const { currency, rates } = this.state;
+    const totalInEUR = this.getSumInEUR();
+    switch (currency) {
+      case "USD":
+        return (totalInEUR * rates.USD).toFixed(2);
+      case "PLN":
+        return (totalInEUR * rates.PLN).toFixed(2);
+      case "EUR":
+        return totalInEUR;
+      default:
+        return totalInEUR;
+    }
+  };
+
   getTotal = (e) => {
     e.preventDefault();
-    const { currency, rates } = this.state;
-    if (currency) {
-      switch (currency) {
-        case "USD":
-          return this.setState({
-            total: (this.getSumInEUR() * rates.USD).toFixed(2),
-          });
-        case "PLN":
-          return this.setState({
-            total: (this.getSumInEUR() * rates.PLN).toFixed(2),
-          });
-        default:
-          return this.setState({ total: this.getSumInEUR() });
-      }
-    }
+    const total = this.сurrencyConverter();
+    this.setState({ total });
   };
 
   componentDidMount() {
